@@ -12,4 +12,4 @@ let story = `Today at ${place}, my teacher, Mr./Ms. ${lastname}, gave us a ${adj
 
 console.log(story)
 
-document.getElementById('story').innerHTML = mystory
+document.getElementById('story').innerHTML =story
