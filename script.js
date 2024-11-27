@@ -1,13 +1,15 @@
-let username = prompt('who are you?')
-let userQuest = prompt('Describe ')
-let userFavColor = prompt('what is your favorite color?')
-let swallowAirspeed = prompt('what is the air speed of an unlaiden swallow')
-let 
+let place = prompt("Enter a place");
+let lastname = prompt("Enter a last name");
+let adj = prompt("Enter ADJ");
+let subject = prompt("Name a subject");
+let noun = prompt("Name enter a noun");
+let food = prompt("Name a food");
+let drink = prompt("Name a drink");
+let activity = prompt("Name an activity");
+let emotions = prompt("Enter a emotions");
 
-let head = `<h1> ${username}'s art`
-let mystory = `<p> Hello ${username}. Answer me these questions <span class="loud">three</span>, and the other side youll see. </p>
-<p> I see you have alreadu amswered, so your quest is to ${userQuest} </p>`
+let story = `Today at ${place}, my teacher, Mr./Ms. ${lastname}, gave us a ${adj} quiz on ${subject}. I had no idea how to answer questions like, "What is ${noun}?" and "Why does ${noun} exist?" During lunch, I ate ${food} and drank ${drink}, but my friend accidentally spilled ${food} everywhere, which was super ${adj}. After lunch, we had ${activity} class, where I felt ${emotions} but also kind of ${adj}. What a day! `
 
-console.log(mystory)
+console.log(story)
 
-document.getElementById('story').innerHTML = mystory
+document.getElementById('story').innerHTML =story
